@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pereyra_carlos_Labs_1718287533839-pr-trigger-input-set
+  identifier: Build_pereyra_carlos_Labs_1718287533839prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_pereyra_carlos_Labs_1718287533839
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
