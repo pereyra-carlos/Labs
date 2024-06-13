@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pereyra_carlos_Labs_1718287533839-push-trigger-input-set
+  identifier: Build_pereyra_carlos_Labs_1718287533839pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_pereyra_carlos_Labs_1718287533839
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
